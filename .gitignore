@@ -1,0 +1,40 @@
+# Scala / SBT
+target/
+project/target/
+project/project/
+.bsp/
+.idea/
+*.class
+*.log
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output (keep directory structure, ignore generated files)
+output/activity/*.csv
+output/activity/*.png
+output/rankings/*.csv
+output/rankings/*.png
+output/components/*.csv
+output/components/*.png
+output/graphs/*.csv
+output/graphs/*.png
+
+# Dataset (large file, download separately)
+dataset/email-Eu-core-temporal.txt
+dataset/*.gz
+dataset/*.zip
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
